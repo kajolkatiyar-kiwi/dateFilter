@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  padding: 5px;
+  background-color: rgb(183, 207, 239);
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.heading {
+  margin: 0;
+  padding: 0;
+  color: rgb(13, 13, 55);
+  border-bottom: 2px solid rgb(61, 145, 255);
+}
+
+.tablediv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+}
+
+table {
+  /* background-color: rgb(6, 93, 207); */
+  /* background-color: rgb(255, 235, 197); */
+  color: black;
+  margin-top: 30px;
+  /* margin-left: 10px; */
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 99%;
+  
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 3px;
+}
+
+th {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  /* background-color: rgb(164, 200, 246); */
+  background-color: rgb(227, 219, 204);
+  color: black;
+}
+
+.calender {
+  align-items: left;
+  /* border: 3px solid rgb(13, 13, 55); */
+}
+/* color: rgb(61, 145, 255); */
+/* .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background-color: #dddddd;
+  border: none;
+  color: rgb(13, 13, 55);
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(13, 13, 55);
+  color: #dddddd;
+}
+
+h6{ 
+  color: rgb(13, 13, 55);
+} */
+
+.hov:hover {
+  color: cornflowerblue;
+}
+
+
+
