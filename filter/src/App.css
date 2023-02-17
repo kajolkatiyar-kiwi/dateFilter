@@ -17,7 +17,7 @@
   border-bottom: 2px solid rgb(61, 145, 255);
 }
 
-.tablediv {
+.tbl {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -91,6 +91,7 @@ h6{
 
 .hov:hover {
   color: cornflowerblue;
+  cursor: pointer;
 }
 
 
